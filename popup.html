@@ -1,42 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <title>Merge Tabs Into One</title>
-    <style>
-        body {
-            background-color: black;
-            width: 200px;
-            height: 150px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            font-family: 'Open Sans', sans-serif;
-        }
-        button {
-            color: #000000;
-            background-color: #C7C7C7;
-            width: 150px;
-            height: 50px;
-            font-size: 18px;
-            margin: 5px;
-            cursor: pointer;
-            border: none; /* Remove default border */
-            border-radius: 18px; /* Set a higher border-radius for rounded effect */
-            transition: background-color 0.5s ease, color 0.5s ease; /* Add transition for smooth hover effect */
-        }
-        button:hover {
-            color: white;
-            background-color: #01D261;
-        }
-    </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <title>Merge Tabs Into One</title>
+  <style>
+    body {
+      background-color: aliceblue;
+      border: 0.3rem solid black;
+      width: 200px;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Open Sans', sans-serif;
+    }
+    button {
+      color: #000000;
+      background-color: #C7C7C7;
+      width: 150px;
+      height: 50px;
+      font-size: 18px;
+      margin: 5px;
+      cursor: pointer;
+      border: none; /* Remove default border */
+      border-radius: 18px; /* Set a higher border-radius for rounded effect */
+      transition: background-color 0.5s ease, color 0.5s ease; /* Add transition for smooth hover effect */
+    }
+    button:hover {
+      color: white;
+      background-color: #01D261;
+    }
+  </style>
 </head>
 <body>
-    <button id="merge-tabs">Merge All Tabs</button>
-    <!--<button id="undo-merge">Undo Merge</button>-->
-    <script src="popup.js"></script>
+  <button id="merge-tabs">Merge All Tabs</button>
+  <script src="popup.js"></script>
 </body>
 </html>

@@ -1,35 +1,34 @@
 {
-    "manifest_version": 3,
-    "name": "Merge Tabs Into One",
-    "version": "1.2",
-    "description": "Merge all open tabs into a single window and undo the merge if needed",
-    "permissions": [
-      "tabs",
-      "windows",
-      "storage"
-    ],
-    "background": {
-      "service_worker": "main.js"
-    },
-    "action": {
-      "default_popup": "popup.html",
-      "default_icon": {
-        "16": "icons/icon16.png",
-        "19": "icons/icon19.png",
-        "32": "icons/icon32.png",
-        "38": "icons/icon38.png",
-        "48": "icons/icon48.png",
-        "128": "icons/icon128.png"
-      }
-    },
-    "icons": {
+  "manifest_version": 3,
+  "name": "Merge Tabs Into One",
+  "version": "1.2",
+  "description": "Merge all open Chrome tabs into a single window",
+  "permissions": [
+    "tabs",
+    "windows",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "main.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
       "16": "icons/icon16.png",
       "19": "icons/icon19.png",
       "32": "icons/icon32.png",
       "38": "icons/icon38.png",
       "48": "icons/icon48.png",
       "128": "icons/icon128.png"
-    },
-    "author": "Gary Fung"
-  }
-  
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "19": "icons/icon19.png",
+    "32": "icons/icon32.png",
+    "38": "icons/icon38.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "author": "Gary Fung"
+}
